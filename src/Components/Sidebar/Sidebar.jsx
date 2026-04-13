@@ -1,0 +1,26 @@
+import { NavLink } from "react-router-dom";
+import Style from "./sidebar.module.css";
+
+export default function Sidebar() {
+  return (
+    <div className={Style.sidebarMain}>
+      <NavLink
+        to="/"
+        end
+        className={({ isActive }) =>
+          `${Style.sidebarLink} ${isActive ? Style.sidebarLinkActive : ""}`
+        }
+      >
+        Movies
+      </NavLink>
+      <NavLink
+        to="/tv-series"
+        className={({ isActive }) =>
+          `${Style.sidebarLink} ${isActive ? Style.sidebarLinkActive : ""}`
+        }
+      >
+        Tv Series
+      </NavLink>
+    </div>
+  );
+}

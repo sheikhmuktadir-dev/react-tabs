@@ -1,0 +1,18 @@
+.movieGrid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 40px 0 0;
+  gap: 15px;
+}
+
+.movieCard {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+}
+
+.movieCard img {
+  max-width: 100%;
+  width: 100%;
+}

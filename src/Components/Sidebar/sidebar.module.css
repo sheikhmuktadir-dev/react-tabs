@@ -1,0 +1,22 @@
+.sidebarMain {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 50px 0;
+  min-height: 100vh;
+  border-right: 1px solid #e1e1e1;
+}
+
+.sidebarLink {
+  position: relative;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.sidebarLinkActive {
+  color: #f84565;
+}
