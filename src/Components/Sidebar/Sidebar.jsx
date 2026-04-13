@@ -19,7 +19,7 @@ export default function Sidebar() {
           `${Style.sidebarLink} ${isActive ? Style.sidebarLinkActive : ""}`
         }
       >
-        Tv Series
+        All Tv Series
       </NavLink>
     </div>
   );
