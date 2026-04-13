@@ -11,7 +11,7 @@ export default function Sidebar() {
           `${Style.sidebarLink} ${isActive ? Style.sidebarLinkActive : ""}`
         }
       >
-        Movies
+        All Movies
       </NavLink>
       <NavLink
         to="/tv-series"
